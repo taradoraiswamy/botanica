@@ -1,0 +1,299 @@
+*{
+	scroll-behavior: smooth;
+	letter-spacing: 0.1rem;
+	margin: 0;
+	
+}
+
+body{
+
+font-family: 'EB Garamond', serif;
+background: #CFDEC8; 
+}
+
+
+
+#page-title{
+	display: flex;
+	justify-content: center;
+	color: #294A38;
+	
+}
+
+
+#nav{
+	margin: 1rem 1.5rem;
+	display: flex;
+	justify-content: space-around;
+	padding:1rem 0.5rem ;
+	border-top: 0.5px solid rgb(41, 74, 56, 0.6);
+	border-bottom: 0.5px solid rgb(41, 74, 56, 0.6);
+	font-size:1rem;
+}
+
+#nav a{
+	color: rgb(41, 74, 56, 0.6);
+	text-decoration: none;
+}
+
+#nav:hover{
+	border-top: 0.5px solid rgb(41, 74, 56);
+	border-bottom: 0.5px solid rgb(41, 74, 56);
+	color: rgb(41, 74, 56);
+}
+
+#nav a:hover{
+	color: rgb(41, 74, 56);
+}
+
+#show{
+	display: flex;
+	background: url('bg-1.jpg');
+	background-size: cover;
+	background-position: center center;
+	flex-direction: column;
+	padding:18% 7%;
+	color: #2C4F3C;
+
+}
+
+#show h1{
+	font-size: 3rem;
+	font-weight: lighter;
+}
+ #sec-title, #third-title, .icons{
+	margin-left: auto;
+	align-items: center;
+	
+
+}
+
+#sec-title h1{
+	font-size: 2rem;
+	font-weight: lighter;
+	font-weight: bold;
+}
+
+#third-title{
+	justify-content: flex-end;
+}
+
+
+.icons{
+	display: flex;
+	margin-right: 4rem;
+}
+
+.icons i{
+	padding:0.6rem;
+	color: rgb(41, 74, 56, 0.6);
+	
+}
+
+.icons i:hover{
+	position: relative;
+	color: rgb(41, 74, 56);
+	top:-2px;
+}
+
+/*.   ABOUT US.    */
+
+.container-1{
+	margin: 1rem 0;
+	display: flex;
+	padding: 2rem 3rem;
+	color: #CFDEC8;
+	background: rgb(41, 74, 56);
+}
+
+.heading{
+	display: flex;
+	font-size: 1.7rem;
+	justify-content: center;
+}
+
+.abt-text{
+	display: flex;
+	justify-content: space-evenly;
+
+}
+
+.abt-text p{
+	flex:1;
+	text-align: justify;
+	padding: 1rem 2rem 3rem 2rem;
+}
+
+
+/*.   TAGLINE.     */
+
+.tagline{
+	display: flex;
+	margin-bottom: 2rem;
+	margin-right:2rem;
+	margin-left: 2rem;
+	border-top: 1px solid rgb(41, 74, 56, 0.6);
+	border-bottom: 1px solid rgb(41, 74, 56, 0.6);
+}
+
+.img{
+	flex-basis:42rem;
+	flex-shrink: 1
+	flex-grow:1;
+	margin: 3rem;
+}
+
+
+.img img{
+	align-items: flex-end;
+	max-width: 100%;
+	
+	}
+.quote{
+	margin: 1rem;
+	padding: 1rem;
+	display: flex;
+	font-size: 1.7rem;
+	font-weight: bolder;
+	flex-basis:42rem;
+	flex-shrink: 1
+	flex-grow:1;
+	width:100%;
+	justify-content: center;
+	align-items: center;
+	border-right: 2px solid rgb(41, 74, 56, 0.6);
+	color: rgb(41, 74, 56)
+	
+}
+
+
+/*.    RANGES.     */
+.container-3{
+	color: #CFDEC8;
+	display: flex;
+	flex-direction: column;
+	background: rgb(41, 74, 56);
+	margin-bottom: 2rem;
+	padding:2rem 0;
+}
+
+.range{
+	font-size: 2rem;
+}
+
+.text{
+	font-size:1.5rem;
+}
+
+.range, .text{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+
+}
+
+.text{
+	font-style: italic;
+
+
+
+}
+.pics{
+	display: flex;
+	justify-content: center;
+	flex-basis: 100%;
+	padding:2rem 3rem;
+
+
+}
+
+.hy, .ex, .cl{
+	display: flex;
+	justify-content: center;
+	flex-basis: 15%;
+	flex-shrink: 1;
+	flex-grow:1;
+	padding-right: 1rem;
+	padding-left:1rem;
+}
+
+
+.hy img{
+	width:100%;
+
+	border-radius: 20px;
+}
+
+.cl img{
+	width: 100%;
+	
+	border-radius: 20px;
+}
+
+.ex img{
+	width: 100%;
+	
+	border-radius: 20px;
+}
+
+
+
+
+/*.   NEWSLETTER.    */
+	
+.container-4{
+	display: flex;
+	background: url('orange.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 4rem 1rem;
+	justify-content: center;
+}
+
+.newsletter{
+	background: rgb(41, 74, 56, 0.6);
+	padding: 2rem 1rem;
+}
+
+.submit{
+	display: flex;	
+	justify-content: space-around;
+}
+
+.nl-heading{
+	color: #CFDEC8;
+	padding:0 0.5rem 1rem 0.5rem;
+}
+
+.email{
+	flex: 1;	
+	margin-right:0.5rem;
+}
+
+.button-1{
+	background: none;
+	font-family: 'EB Garamond', serif;
+	padding: 0.5rem;
+	margin-left:0.5rem;
+	flex: 1;
+	color: #CFDEC8;
+	border: solid 2px  #CFDEC8;
+	font-size: 17px;
+	font-weight: bolder;
+}
+
+.button-1:hover{
+	background: rgb(41, 74, 56, 0.6);
+}
+
+.button-1:active{
+	position: relative;
+	top:-2px;
+}
+
+
+@media 
+
+
+
